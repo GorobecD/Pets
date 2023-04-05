@@ -95,7 +95,7 @@ def generate_coordinates():
     global targetRadius
 
     return random.randint(targetRadius, window.width() - targetRadius), \
-        random.randint(40 + targetRadius, window.height() - targetRadius - 28)
+        random.randint(10 + targetRadius, window.height() - targetRadius-76)
 
 
 def spawn_target(x, y):
