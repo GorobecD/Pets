@@ -114,4 +114,5 @@ targetBT.clicked.connect(hit_target)
 
 timeThread = TimeThread()
 despawnThread = DespawnThread()
+
 app.exec()
